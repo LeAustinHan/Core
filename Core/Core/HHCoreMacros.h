@@ -26,6 +26,7 @@
 #define HHPasteString(string)   [[UIPasteboard generalPasteboard] setString:string];
 #define HHPasteImage(image)     [[UIPasteboard generalPasteboard] setImage:image];
 
+//主代理
 #define HHApp ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
 //屏幕尺寸
